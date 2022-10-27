@@ -39,35 +39,58 @@
   height: 3px;
 }
 
-.mobile-menu.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-  background: whitesmoke;
-  transition: 0.2s ease;
-  height: 4px;
-}
-  
-.mobile-menu.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-  background: white;
-  transition: 0.6s ease;
-  height: 4px;
-}
-
-.main-nav .nav-list {
+.nav-list {
   list-style-type: none;
   left: -100rem;
   height: 100%;
   flex-direction: column;
   position: fixed;
   backdrop-filter: blur(8px);
-  background: #6070ff;
+  background: var(--main-text-color);
   width: 100%;
   transition: 0.5s ease;
   mix-blend-mode: multiply;
+  padding-top: 100px;
+  padding-left: 80px;
+  top: 1;
+
+}
+
+.mobile-menu.active .bar:nth-child(2) {
+  opacity: 0;
+  transition: 0.3s ease;
+  background: blue;
+}
+
+.mobile-menu.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background: var(--title-color);
+  transition: 0.2s ease;
+  height: 4px;
+  z-index: 2;
+}
+  
+.mobile-menu.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background: var(--title-color);
+  transition: 0.6s ease;
+  height: 4px;
+  z-index: 2;
+}
+
+.nav-list.active {
+  left: 0;
 }
   
 .nav_list li {
   padding: 40px 0 0 28px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--main-background-color);
+  padding-top: 100px;
+  font-size: 30px;
 }
 
 .home-and-nav {
@@ -145,6 +168,11 @@
 .logo-design {
   border: 1px solid var(--main-text-color);
   padding: 1.5em;
+}
+
+.logo-image {
+  width: 100px;
+  height: 100%;
 }
 
 .logo-sub-head {
@@ -250,6 +278,12 @@
     display: inline-block;
   }
 
+  
+  .my-logo {
+    width: 80px;
+    height: 100%;
+  }
+
   .header-list-links {
     list-style-type: none;
     display: flex;
@@ -263,6 +297,28 @@
   .header-list-links a {
     text-decoration: none;
     color:var(--main-text-color);
+  }
+
+  .facebook-icon {
+    width: 100%;
+    height: 20px;
+  }
+
+  .twiter-icon {
+    width: 100%;
+    height: 20px;
+  }
+
+  .header-list-links button {
+    background: none;
+    border: none;
+    color: var(--main-text-color);
+    font-size: 15px;
+  }
+  
+  .final a {
+    border: 2.3px solid var(--title-color);
+    padding: 0.27em;
   }
 
   .home-and-nav {
@@ -279,6 +335,9 @@
   }
 
   .main-nav .nav-list {
+    margin: unset;
+    padding: unset;
+    top: unset;
     list-style-type: none;
     left: unset;
     height: unset;
@@ -292,6 +351,12 @@
     display: flex;
     gap: 2em;
     align-items: center; 
+  }
+
+  .nav-list a {
+    font-size: unset;
+    padding: unset;
+    margin: unset;
   }
 
   .about-section {
