@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-    --title-color: #ec5242;
-    --main-background-color: #272a31;
-    --main-text-color: #d3d3d3;
-  }
+  --title-color: #ec5242;
+  --main-background-color: #272a31;
+  --main-text-color: #d3d3d3;
+}
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'poppins', sans-serif;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
 
-  body {
-    font-family: 'Lato', sans-serif;
-  }
+body {
+  font-family: 'Lato', sans-serif;
+}
 
-  /* mobile-version home-page design */
+/* mobile-version home-page design */
 
 .header-list-links {
-    display: none;
+  display: none;
 }
 
 .home-and-nav {
@@ -28,7 +28,7 @@
 }
 
 .logo {
-    display: none;
+  display: none;
 }
 
 .mobile-menu {
@@ -59,7 +59,6 @@
   padding-top: 100px;
   padding-left: 80px;
   top: 1;
-
 }
 
 .mobile-menu.active .bar:nth-child(2) {
@@ -75,7 +74,7 @@
   height: 4px;
   z-index: 2;
 }
-  
+
 .mobile-menu.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background: var(--title-color);
@@ -87,7 +86,7 @@
 .nav-list.active {
   left: 0;
 }
-  
+
 .nav_list li {
   padding: 40px 0 0 28px;
 }
@@ -97,10 +96,6 @@
   color: var(--main-background-color);
   padding-top: 100px;
   font-size: 30px;
-}
-
-.home-and-nav {
-  background-image: url(/images/mobile_intro_bg.png);
 }
 
 .about-section {
@@ -156,6 +151,7 @@
   font-size: 22px;
   font-weight: 600;
   padding-bottom: 1em;
+  text-align: center;
 }
 
 .logo-deff {
@@ -179,10 +175,6 @@
 .logo-image {
   width: 100px;
   height: 100%;
-}
-
-.logo-sub-head {
-  text-align: center;
 }
 
 .past-summit-section-deff {
@@ -227,7 +219,7 @@
 .sub-title {
   font-size: 24px;
   text-align: center;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
 .line-container {
@@ -235,7 +227,6 @@
   align-items: center;
   justify-content: center;
   padding-top: 10px;
-
 }
 
 .line {
@@ -245,7 +236,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;    
+  margin-bottom: 40px;
 }
 
 .partner {
@@ -275,7 +266,6 @@
 }
 
 @media all and (min-width: 768px) {
-  
   .mobile-menu {
     display: none;
   }
@@ -284,7 +274,6 @@
     display: inline-block;
   }
 
-  
   .my-logo {
     width: 80px;
     height: 100%;
@@ -302,7 +291,7 @@
 
   .header-list-links a {
     text-decoration: none;
-    color:var(--main-text-color);
+    color: var(--main-text-color);
   }
 
   .facebook-icon {
@@ -321,7 +310,7 @@
     color: var(--main-text-color);
     font-size: 15px;
   }
-  
+
   .final a {
     border: 2.3px solid var(--title-color);
     padding: 0.27em;
@@ -356,7 +345,7 @@
     mix-blend-mode: unset;
     display: flex;
     gap: 2em;
-    align-items: center; 
+    align-items: center;
   }
 
   .nav-list a {
@@ -383,7 +372,7 @@
     border: 4px solid #fff;
     background-color: rgb(247, 247, 248);
     line-height: 150%;
-    word-break:break-all;
+    word-break: break-all;
     text-align: justify;
     padding: 1em 0.5em;
     color: var(--main-background-color);
@@ -436,5 +425,4 @@
     width: 80%;
     text-align: center;
   }
-
 }

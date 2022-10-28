@@ -1,7 +1,7 @@
 {
   "name": "leadershipsummitwebpage",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a website for East Africa leaders annual general meeing. It has the about and the home page at the moment. Everyone intrested in the annual general meeting can get all the information he/she needs on this website.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
