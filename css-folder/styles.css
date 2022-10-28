@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 :root {
     --title-color: #ec5242;
     --main-background-color: #272a31;
@@ -8,6 +11,10 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'poppins', sans-serif;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
   }
 
   /* mobile-version home-page design */
@@ -109,9 +116,14 @@
 
 .title .title-head {
   color: var(--title-color);
-  font-size: 30px;
-  font-weight:bolder;
+  font-size: 2rem;
+  font-weight: 750;
   padding-bottom: 30px;
+  background: url(/images/kings.webp);
+  background-position: center center;
+  color: transparent;  
+  -webkit-background-clip: text;
+
 }
 
 .intro-p {
@@ -357,7 +369,7 @@ gap: 10px;
 
   .home-and-nav {
     padding: unset;
-    background-image: url(./images/mobile_intro_bg.png);
+    background-image: url(/images/mobile_intro_bg.png);
   }
 
   .home-and-nav .main-nav {
@@ -405,6 +417,11 @@ gap: 10px;
     padding-top: 10em;
     padding-left: 10em;
     width: 60%;
+  }
+
+  .title .title-head {
+    font-size: 5rem;
+    font-weight: 900;
   }
 
   .program-list-container {
