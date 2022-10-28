@@ -15,7 +15,7 @@ const projectSection = document.querySelector('.speakers-list');
 
 const myArray = [
   {
-    image: '/images/user-male.png',
+    image: 'images/user-male.png',
     name: 'Simon Kimani',
     work: 'Bekman Profesor of Enterprenurial'
          + 'Legal Studies at Harvard Law School.',
@@ -25,7 +25,7 @@ const myArray = [
         + 'world\'s population.',
   },
   {
-    image: '/images/user-female.png',
+    image: 'images/user-female.png',
     name: 'Moses Mwikali',
     work: 'Diretor of Center Nabi and a board'
         + 'menber of CC Korea',
@@ -43,7 +43,7 @@ const myArray = [
           + 'such as open source software and Wikipedia.',
   },
   {
-    image: '/images/user-male.png',
+    image: 'images/user-male.png',
     name: 'Sam Wakanda',
     work: 'CEO of laik technology in Egypt',
     description: 'As the author'
