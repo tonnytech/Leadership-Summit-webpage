@@ -424,6 +424,11 @@ gap: 10px;
     font-weight: 900;
   }
 
+  .period {
+    font-size: 35px;
+    padding-bottom: 0.8rem;
+  }
+
   .program-list-container {
     display: flex;
     justify-content: center;
