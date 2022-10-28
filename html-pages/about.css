@@ -392,18 +392,7 @@
     font-size: 20px;
   }
 
-  .past-summit-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-  }
-
   .past-summit-section-deff {
-    width: 50%;
-    display: flex;
     align-items: center;
     text-align: center;
   }
@@ -411,20 +400,43 @@
   .past-summit-link-list {
     display: flex;
     flex-direction: row;
-    gap: 3em;
-    width: 100%;
-    height: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
+    height: unset;
+    width: unset;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    gap: 40px;
 
   }
 
+  .past-summit-items-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400px;
+    width: 300px;
+    height: 400px;
+    margin-bottom: unset;
+    background-image: ;
+  }
 
+  .past-summit-items-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400px;
+    width: 300px;
+    height: 400px;
+  }
 
   .contact-deff {
     width: 80%;
     text-align: center;
   }
 
-  
 }
