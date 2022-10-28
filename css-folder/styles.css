@@ -114,12 +114,8 @@ body {
 
 .title .title-head {
   font-size: 2rem;
-  font-weight: 750;
-  padding-bottom: 30px;
-  background: url(/images/kings.webp);
-  background-position: center center;
-  color: transparent;
-  -webkit-background-clip: text;
+  font-weight: 70px;
+  color: var(--title-color);
 }
 
 .intro-p {
