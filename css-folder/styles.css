@@ -139,13 +139,17 @@ body {
 }
 
 .period {
+  display: flex;
+  flex-wrap: nowrap;
   margin-top: 30px;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
   margin-bottom: 4px;
   letter-spacing: 0;
-  width: 90%;
+  line-height: 40px;
+  width: 100%;
   text-align: center;
+  gap: 1px;
 }
 
 .location {
@@ -398,8 +402,11 @@ body {
   }
 
   .final a {
+    display: flex;
     border: 2.3px solid var(--title-color);
     padding: 0.27em;
+    flex-wrap: nowrap;
+    line-height: 40px;
   }
 
   .home-section {
