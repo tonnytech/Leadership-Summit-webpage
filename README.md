@@ -9,7 +9,7 @@ This is a website for East Africa leaders annual general meeing. It has the abou
 3. javascript
 
 # Live preview
-
+https://teitonny.github.io/Leadership-Summit-webpage/
 
 # Getting started
 To get a local copy up and running, do the following steps:
